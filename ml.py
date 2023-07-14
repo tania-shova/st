@@ -41,7 +41,7 @@ def login():
     	print("\033[1;32m═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━━═━━═━━━═━━═━\033[1;37m")
     	subprocess.run(['termux-setup-storage', '-y'], capture_output=True)
     	os.system('cd /sdcard')
-    	os.system('rm -rf MT2')
+    	os.system('rm -rf /sdcard/MT2')
     	exit()
 if login():
     # Perform additional operations after successful login
